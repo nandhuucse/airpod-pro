@@ -1,0 +1,756 @@
+html {
+  /* height: 100vh; */
+  scroll-behavior: smooth !important;
+  /* background-attachment: fixed !important; */
+}
+body {
+  overflow-x: hidden;
+  /* height: 700vh !important; */
+}
+.header {
+  height: 120vh !important;
+  width: 100%;
+  background: black !important;
+}
+.navbar-nav .nav-link {
+  color: #808080 !important;
+}
+.header nav {
+  background-color: black;
+}
+.topnav-brand {
+  margin-top: -5px;
+}
+.topnav .nav-link {
+  font-size: 13px !important;
+  padding-left: 40px !important;
+}
+.topnav .search-bar,
+.topnav .shopping-bag {
+  margin-top: -8px;
+}
+.topnav .search-bar {
+  padding-left: 20px !important;
+}
+.topnav .shopping-bag {
+  padding-left: 30px !important;
+}
+.buy-product .nav-link {
+  background: #147ce5;
+  border-radius: 20px;
+  width: 70px;
+  text-align: center;
+}
+.sticky-navbar {
+  border-bottom: 1px solid #808080;
+}
+.sticky-navbar-content .nav-link {
+  color: white !important;
+  font-size: 14px;
+}
+.sticky {
+  backdrop-filter: blur(10px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(10px) saturate(180%) !important;
+  background-color: rgba(74, 74, 74, 0.58) !important;
+  border: none;
+}
+.title-content {
+  position: absolute;
+  z-index: 1 !important;
+  left: 25%;
+  background-attachment: fixed;
+}
+.header .airpod-title {
+  font-size: 8rem;
+  font-weight: bold;
+}
+.header .airpod-video {
+  font-size: 22px;
+  font-weight: bold;
+}
+.header .airpod-video:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#hero-lightpass {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 5%);
+  max-height: 100vh;
+  max-width: 100vw;
+}
+#head-bob-turn {
+  width: 100%;
+  height: 150vh;
+}
+.lightpass {
+  background: black;
+  height: 110vh;
+}
+.head-bob {
+  margin-top: -2px;
+  background: black;
+  height: 150vh;
+}
+.flip-nc {
+  background: black;
+  height: 150vh;
+}
+#flip-for-nc {
+  width: 100%;
+  height: 150vh;
+}
+.transparency-head {
+  background: black;
+  height: 150vh;
+}
+#transparency {
+  width: 100%;
+  height: 150vh;
+}
+.flip-reveal {
+  position: relative;
+  background: white;
+  height: 150vh;
+}
+#flip-reveal-guts {
+  width: 100%;
+  height: 150vh;
+}
+.explode {
+  background: black;
+  height: 110vh;
+}
+#explode-tips {
+  width: 100%;
+  height: 110vh;
+}
+.turn-chip {
+  background: white;
+  height: 110vh;
+}
+#turn-for-chip {
+  height: 120vh;
+  position: relative;
+  top: -13px;
+  width: 100vw;
+}
+.scoop {
+  background: white;
+  height: 100vh;
+}
+#scoop-turn {
+  width: 70%;
+  height: 100vh;
+}
+.fall-case {
+  background: black;
+  height: 100vh;
+}
+#fall-into-case {
+  width: 80%;
+  height: 100vh;
+}
+/* .airpod-anime {
+  background: black;
+}*/
+.airpod-feature {
+  position: relative;
+  height: 140vh;
+  /* background: black; */
+}
+.active-voice-one {
+  font-size: 4em;
+  font-weight: bold;
+  position: relative;
+  top: -150px;
+}
+.trans-mode {
+  font-size: 4em;
+  font-weight: bold;
+}
+.customisable,
+.magic {
+  font-size: 4em;
+  font-weight: bold;
+}
+.comfort-arrival {
+  position: absolute;
+  top: 40%;
+  left: 22%;
+  transition: translate(-50%, -50%);
+}
+.comfort {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.arrival {
+  font-size: 5rem;
+  font-weight: bold;
+}
+.explode-text {
+  width: 250px;
+  position: absolute;
+  margin-top: 65%;
+  margin-left: 55%;
+  transition: translate(-50%, -50%);
+  z-index: 9999 !important;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 6mm;
+}
+.transparency-text {
+  position: absolute;
+  z-index: 99999;
+  margin-top: 15%;
+  margin-left: 10%;
+  width: 300px;
+}
+.audio {
+  height: 90vh;
+  width: 100vw;
+  background-color: white;
+}
+.audio-quality {
+  width: 700px;
+  position: absolute;
+  z-index: 9999 !important;
+  margin-top: 15%;
+  margin-left: 25%;
+  transform: translate(-50%, 10%);
+}
+.airpod-quality {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 37%;
+}
+.audio-feel {
+  font-size: 4.2em;
+  font-weight: bold;
+  line-height: 25mm;
+}
+.airpod-reveal {
+  position: absolute;
+  z-index: 9999;
+}
+.airpod-part-one {
+  width: 200px;
+  position: relative;
+  margin-left: 370%;
+  margin-top: 40%;
+  line-height: 5mm;
+  font-size: 14px;
+  font-weight: 700;
+}
+.airpod-part-one::before {
+  content: "";
+  position: absolute;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 90px;
+  width: 1px;
+  background: black;
+}
+.airpod-part-two {
+  width: 200px;
+  position: relative;
+  margin-left: 210%;
+  margin-top: 200%;
+  line-height: 5mm;
+  font-size: 14px;
+  font-weight: 700;
+}
+.airpod-part-two::after {
+  content: "";
+  position: absolute;
+  top: -120px;
+  left: 200px;
+  bottom: 0;
+  right: 0;
+  height: 110px;
+  width: 1px;
+  background: black;
+}
+.turn-chip-content {
+  position: absolute;
+  z-index: 9999 !important;
+  width: 200px;
+  margin-left: 60%;
+  margin-top: 5%;
+  font-weight: bold;
+}
+.battery {
+  height: 200vh;
+  width: 100vw;
+  background: black;
+  color: white;
+}
+.battery-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 40%;
+}
+.battery-feature {
+  font-size: 5.2em;
+  font-weight: bold;
+  line-height: 25mm;
+}
+.battery .airpod-case-image {
+  margin-top: 40%;
+  margin-left: 40%;
+  width: 320px;
+  height: 300px;
+}
+.capacity-hours {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 5mm;
+}
+.capacity-hours span {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.capacity-text {
+  width: 200px;
+}
+.battery-explanation {
+  width: 80%;
+  margin-left: 150px;
+}
+.siri {
+  height: 520vh;
+  width: 100vw;
+  background: black;
+  color: white;
+}
+
+.siri-quality {
+  width: 700px;
+  position: absolute;
+  z-index: 9999 !important;
+  /* margin-top: 15%; */
+  margin-left: 25%;
+  transform: translate(-50%, 10%);
+}
+.siri-experience {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 37%;
+}
+.siri-experience-content {
+  margin-top: -400px;
+}
+.siri-simplicity {
+  font-size: 4.2em;
+  font-weight: bold;
+  line-height: 25mm;
+}
+.siri-content {
+  position: relative;
+  top: 20%;
+  width: 700px;
+  margin-left: 20%;
+  /* margin-top: 0px; */
+}
+.siri-connectivity,
+.siri-music-control,
+.siri-call-control {
+  position: relative;
+  top: 20%;
+  width: 700px;
+  margin-left: 20%;
+  margin-top: 60px;
+}
+.siri-content .siri-text,
+.siri-connectivity .siri-text,
+.siri-music-control .siri-text,
+.siri-call-control .siri-text {
+  /* width: 300px; */
+  margin-top: 150px;
+  font-weight: 700;
+  font-size: 1em;
+}
+.ar-quality {
+  height: 55vh;
+  width: 100vw;
+  background: #111111;
+}
+.ar-quality .ar-icon {
+  height: 40px;
+  width: 40px;
+}
+.ar-image-quality {
+  margin-top: 40px;
+}
+.ar-icon-text {
+  width: 300px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 12mm;
+  margin-top: 8px;
+}
+.ar-content {
+  width: 300px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.ar-experience {
+  height: 100vh;
+  background: black;
+}
+.three-airpod {
+  height: 55vh;
+  width: 100vw;
+  background: #111111;
+  margin-top: 20px;
+}
+.three-airpod-quality {
+  margin-top: 40px;
+}
+.three-airpod-image {
+  height: 300px;
+  width: 600px;
+}
+.three-airpod-text {
+  width: 300px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 12mm;
+  margin-top: 8px;
+}
+.three-airpod-content {
+  width: 300px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.buy-airpods-pro {
+  color: #147ce5;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.buy-airpods-pro:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ar-experience {
+  height: 100vh;
+  background: black;
+}
+.airpod-songs {
+  height: 100vh;
+  width: 100vw;
+  background-color: whitesmoke;
+}
+.song-quality-img {
+  height: 20px;
+  width: 80px;
+}
+.song-quality {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+.ar-icon-text {
+  width: 300px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 12mm;
+  margin-top: 8px;
+}
+.song-img {
+  height: 400px;
+}
+.airpod-learn {
+  color: #147ce5;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.airpod-learn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.airpod-list {
+  height: 100vh;
+}
+.airpod-choice {
+  width: 400px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 350px;
+}
+.airpod-one-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.airpod-generation {
+  line-height: 5mm;
+  margin-top: -15px;
+}
+.airpod-price {
+  font-size: 1.2rem;
+}
+.airpod-buy {
+  background: #147ce5;
+  border-radius: 20px;
+  width: 70px;
+  text-align: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.airpod-detail {
+  color: #147ce5;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.airpod-two {
+  margin-top: 35px;
+}
+.airpod-three {
+  margin-top: 35px;
+}
+.airpod-three .airpod-buy {
+  margin-left: 25px;
+}
+.airpod-four img {
+  height: 150px;
+  width: 150px;
+}
+.airpod-four .airpod-buy {
+  margin-left: 40px;
+}
+.airpod-four .airpod-detail {
+  margin-left: 5px;
+}
+.airpod-one hr,
+.airpod-two hr,
+.airpod-four hr {
+  height: 1px;
+  width: 100%;
+  background: #ddd;
+}
+.airpod-three hr {
+  height: 1px;
+  width: 100%;
+  background: #ddd;
+  margin-top: 70px;
+}
+.airpod-feature-check {
+  height: 100vh;
+}
+.airpod-feature-check .none {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.feature-one img {
+  height: 40px;
+  width: 40px;
+  margin-left: 50px;
+}
+.feature-one p {
+  width: 150px;
+}
+.feature-two p {
+  width: 150px;
+}
+.feature-two .two-img {
+  margin-left: 50px;
+}
+.feature-two.move {
+  margin-left: 120px;
+}
+.feature-three img {
+  height: 40px;
+  width: 30px;
+  margin-left: 50px;
+}
+.feature-three p {
+  width: 150px;
+}
+.feature-four {
+  margin-left: -70px;
+}
+.feature-four img {
+  height: 40px;
+  width: 30px;
+  margin-left: 50px;
+}
+.feature-four p {
+  width: 150px;
+}
+.time-feature-row {
+  margin-left: -80px;
+}
+.time-feature .time {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 7mm;
+}
+.time-feature .time-context {
+  width: 150px;
+}
+.time-feature hr {
+  height: 1px;
+  width: 100%;
+  background: #ddd;
+  /* margin-top: 70px; */
+}
+.model-compare {
+  height: 20vh;
+  position: relative;
+  top: 300px;
+  left: 42%;
+}
+.model-compare .compare-context {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.model-compare .compare-context:hover {
+  color: #147ce5;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.service {
+  height: 270vh;
+  background: #f5f5f7;
+  position: relative;
+  top: 35%;
+}
+.service-one img {
+  height: 60px;
+  width: 60px;
+  margin-left: 50px;
+}
+.service-two img {
+  height: 60px;
+  width: 60px;
+  margin-left: 50px;
+}
+.service-one-context {
+  width: 150px;
+  font-size: 14px;
+}
+.service-two-context {
+  width: 150px;
+  font-size: 14px;
+}
+.service-one-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.service-two-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.customer-service-one {
+  margin-left: 25%;
+}
+.customer-service-two {
+  margin-left: 25%;
+  margin-top: 50px;
+}
+.service-learn {
+  font-size: 14px;
+  color: #147ce5;
+}
+.service-learn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.service hr {
+  height: 1px;
+  width: 100%;
+  background: #ddd;
+}
+.listing-price p {
+  font-size: 12px;
+  color: grey;
+}
+.logo-breadcrumb {
+  width: 300px;
+}
+.logo-breadcrumb .apple-icon {
+  height: 20px;
+  width: 20px;
+}
+.logo-breadcrumb .fa-chevron-right {
+  font-size: 16px;
+  margin-top: 2px;
+  color: rgb(187, 185, 185);
+}
+.logo-breadcrumb p {
+  font-size: 13px;
+  color: grey;
+}
+.logo-breadcrumb p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.shop-learn {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+.product-shop {
+  font-size: 12px;
+  font-weight: 600;
+  color: #808080;
+}
+.product-shop:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.shop-and-learn,
+.service-footer,
+.apple-store,
+.apple-value {
+  line-height: 2mm !important;
+  /* margin-top: -310px; */
+}
+.account,
+.business,
+.education,
+.healthcare,
+.about-apple {
+  line-height: 2mm !important;
+  margin-top: 20px;
+}
+.footer-products {
+  width: 900px;
+  /* margin-top: -320px; */
+}
+.retailer-ship p {
+  font-size: 13px;
+  color: #808080;
+}
+.retailer-ship span {
+  color: #147ce5;
+}
+.retailer-ship span:hover,
+.footer .policies p:hover,
+.footer .nation:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer hr {
+  height: 1px;
+  width: 100%;
+  background: #ddd;
+}
+.footer .copyright,
+.footer .nation {
+  font-size: 12px;
+  color: #808080;
+}
+.footer .policies {
+  margin-left: 100px;
+}
+.footer .policies p {
+  font-size: 12px;
+  color: #808080;
+  padding-left: 15px;
+}
